@@ -95,7 +95,7 @@ OR
 In the steps just  change this  :
 
 ```yaml
-task: Maven@3
+task: Maven@4
 jdkVersionOption: '1.17'
 goals: 'clean package'
 mavenPomFile: 'myapp/pom.xml'
