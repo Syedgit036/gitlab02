@@ -92,12 +92,13 @@ OR
 
 ## Step 10: Add YAML Pipeline Configuration
 
-In the steps change the following:
+In the steps just  change this  :
 
 ```yaml
 task: Maven@3
 jdkVersionOption: '1.17'
 goals: 'clean package'
+mavenPomFile: 'myapp/pom.xml'
 ```
 
 ## Step 11: Save Pipeline
